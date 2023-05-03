@@ -21,3 +21,17 @@ let number = function(busStops) {
 }
 console.log(number([[3, 0], [9, 1], [4, 10], [12, 2], [6, 1], [7, 10]]));
 */
+/*
+function filter_list(x) {
+	let array = [];
+	for (let i = 0; i < x.length; i++) {
+		//console.log(x[i]);
+		if (typeof x[i] === "number") {
+			array.push(x[i]);
+			//console.log(newArrey);
+		}
+	} 
+	return array;
+}
+console.log(filter_list([1, 'a', 'b', 0, 15]));
+*/
