@@ -35,3 +35,21 @@ function filter_list(x) {
 }
 console.log(filter_list([1, 'a', 'b', 0, 15]));
 */
+/*
+function betterThanAverage(classPoints, yourPoints) {
+	let sum = 0;
+	let GPA;
+	for (let i = 0; i < classPoints.length; i++) {
+		sum += classPoints[i];
+	}
+	GPA = sum / classPoints.length;
+	if (GPA < yourPoints) {
+		return true;
+	} else {
+		return false;
+	}
+
+}
+
+console.log(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9));
+*/
