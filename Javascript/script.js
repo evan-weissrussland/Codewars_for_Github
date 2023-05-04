@@ -53,3 +53,16 @@ function betterThanAverage(classPoints, yourPoints) {
 
 console.log(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9));
 */
+/*
+function sumMix(x) {
+	let newArrey = [];
+	
+	for (let i = 0; i < x.length; i++) {
+		//console.log(x[i]);
+		newArrey.push(x[i] * 2);
+		//console.log(newArrey);
+	}
+	return newArrey;
+}
+console.log(sumMix([9, 3]));
+*/
