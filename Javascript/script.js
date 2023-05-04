@@ -69,12 +69,11 @@ console.log(sumMix([9, 3]));
 /*
 function printerError(s) {
 	let errorRate;
-	let sumErr = 0;
+	let sumErr = 0;	
 	for (let i = 0; i < s.length; i++) {
-		if (s[i] === "n" || s[i] === "o" || s[i] === "p" || s[i] === "r" || s[i] === "s" || s[i] === "t" || s[i] === "u" || s[i] === "v" || s[i] === "w" || s[i] === "x" || s[i] === "y" || s[i] === "z") {
-
+		if (s[i] === "n" || s[i] === "o" || s[i] === "p" || s[i] === "q" || s[i] === "r" || s[i] === "s" || s[i] === "t" || s[i] === "u" || s[i] === "v" || s[i] === "w" || s[i] === "x" || s[i] === "y" || s[i] === "z") {
+			console.log(1);
 			sumErr++;
-
 		}
 	}
 	errorRate = `${sumErr}/${s.length}`;
