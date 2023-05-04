@@ -66,3 +66,19 @@ function sumMix(x) {
 }
 console.log(sumMix([9, 3]));
 */
+/*
+function printerError(s) {
+	let errorRate;
+	let sumErr = 0;
+	for (let i = 0; i < s.length; i++) {
+		if (s[i] === "n" || s[i] === "o" || s[i] === "p" || s[i] === "r" || s[i] === "s" || s[i] === "t" || s[i] === "u" || s[i] === "v" || s[i] === "w" || s[i] === "x" || s[i] === "y" || s[i] === "z") {
+
+			sumErr++;
+
+		}
+	}
+	errorRate = `${sumErr}/${s.length}`;
+	return errorRate;
+}
+console.log(printerError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"));
+*/
