@@ -81,3 +81,19 @@ function printerError(s) {
 }
 console.log(printerError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"));
 */
+/*
+function getCount(str) {
+	let sum = 0;
+	let array = ["a", "e", "i", "o", "u"];
+	for (let i = 0; i < str.length; i++) {
+		for (let j = 0; j < array.length; j++) {
+			if (str[i] === array[j]) {
+				sum++;
+			}
+		}
+	}
+	return sum;
+}
+
+console.log(getCount("abracadabra"));
+*/
