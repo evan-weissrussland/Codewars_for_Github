@@ -111,3 +111,24 @@ function lovefunc(flower1, flower2) {
 
 console.log(lovefunc(0, 1));
 */
+/*
+function validatePIN(pin) {
+
+	if (pin.length === 4 || pin.length === 6) {
+		for (let i = 0; i < pin.length; i++) {
+
+			if (!Boolean(Number(pin[i]))) {
+				if (pin[i] === '0') {
+
+					continue;
+				}
+				return false;
+			}
+		}
+		return true;
+	} else {
+		return false;
+	}
+}
+console.log(validatePIN("908765"));
+*/
