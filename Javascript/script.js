@@ -97,3 +97,17 @@ function getCount(str) {
 
 console.log(getCount("abracadabra"));
 */
+
+/*
+function lovefunc(flower1, flower2) {
+	let a = flower1 % 2;
+	let b = flower2 % 2;
+	if (a === 0 && b != 0 || a != 0 && b === 0) {
+		return true;
+	} else {
+		return false
+	}
+}
+
+console.log(lovefunc(0, 1));
+*/
