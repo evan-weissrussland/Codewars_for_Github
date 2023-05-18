@@ -149,3 +149,30 @@ console.log(openOrSenior([[45, 12], [55, 21], [19, -2], [104, 20]]));
 */
 
 
+/*
+function DNAStrand(dna) {
+   let splitArr = dna.split('');
+   console.log('Разбиваем строку на символы: ' + splitArr);
+   let arrChange = splitArr.map(item => {
+      if (item === "A") {
+         return item = "T";
+      }
+      if (item === "T") {
+         return item = "A";
+      }
+      if (item === "G") {
+         return item = "C";
+      }
+      if (item === "C") {
+         return item = "G";
+      }
+   });
+   console.log(arrChange);
+   let output = arrChange.join("");
+   console.log(output, typeof output)
+
+   return output;
+}
+console.log(DNAStrand("AAAA"));
+*/
+
