@@ -186,3 +186,18 @@ const summation = function (num) {
    return sum;
  }
  */
+/*
+function strChange(str) {
+   console.log(str);
+   let arrWord = str.split(" "); //это массив из слов выражения
+   let resultMap = arrWord.map(function(item) { // результ - это массив результатов map для каждого item из arrWord
+      let newSplit = item.split(""); // разбиваем arrWord[i] по буквам
+      let newSplit1 = newSplit.reverse(); // меняем порядок букв в arrWord[i] 
+      let newWord = newSplit1.join(""); // склеиваем буквы заново в слова
+      return newWord;      
+   });
+   let newString = resultMap.join(" ");
+return newString; //возвращает результат в функцию strChange;
+}
+console.log(strChange("This is an example!"));
+ */
