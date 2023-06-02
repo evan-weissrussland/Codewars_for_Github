@@ -239,6 +239,13 @@ console.log(countSheeps([true,  true,  true,  false,
    */
   //--------------------END task------------------
 
-const boolToWord = bool => bool ? "Yes" : "No"
 
-console.log(boolToWord(false))
+//-----------Start task--------------------------
+/*const boolToWord = bool => bool ? "Yes" : "No"
+console.log(boolToWord(false))*/
+//--------------------END task------------------
+
+//-----------Start task--------------------------
+/*const paperwork = (n, m) => n < 0 || m < 0 ? 0 : n * m;
+console.log(paperwork(12, 3))*/
+//--------------------END task------------------
