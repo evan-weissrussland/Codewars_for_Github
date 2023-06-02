@@ -238,3 +238,7 @@ console.log(countSheeps([true,  true,  true,  false,
    false, false, true,  true]));
    */
   //--------------------END task------------------
+
+const boolToWord = bool => bool ? "Yes" : "No"
+
+console.log(boolToWord(false))
