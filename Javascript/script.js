@@ -249,3 +249,9 @@ console.log(boolToWord(false))*/
 /*const paperwork = (n, m) => n < 0 || m < 0 ? 0 : n * m;
 console.log(paperwork(12, 3))*/
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+/*function solution(str, ending){
+    return str.endsWith(ending)
+}*/
+//--------------------END task------------------
