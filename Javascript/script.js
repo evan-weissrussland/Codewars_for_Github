@@ -286,3 +286,35 @@ console.log(paperwork(12, 3))*/
 }
 console.log(func('asfOf werijs Weroy'))*/
 //--------------------END task------------------
+
+
+//-----------Start task--------------------------
+
+//-------вариант 1--------------
+
+/*function squareDigits(num) {
+    let a = String(num);
+    console.log('a=', a)
+    let b = a.split('')
+    console.log(b)
+    let c = b.map(it => {
+        return it ** 2
+    });
+    console.log(c)
+    let r = c.join('')
+    console.log(r)
+    let rez = +r
+
+    console.log(rez)
+    return rez
+}
+
+console.log(squareDigits(23))*/
+
+//-------вариант 2--------------
+
+/*function squareDigits(num){
+    return +String(num).split('').map(it=>it**2).join('');
+}*/
+
+//--------------------END task------------------
