@@ -269,7 +269,9 @@ console.log(paperwork(12, 3))*/
 
         let filter = arrayLettersFromItem.filter(it => {
             if (it !== 'a' && it !== 'A' && it !== 'e' && it !== 'E' && it !== 'i' && it !== 'I' && it !== 'o' && it !== 'O' && it !== 'u' && it !== 'U') {
-                return it
+                return true
+            } else {
+                return false
             }
         })
         console.log(`filter${index + 1}=  `, filter)
