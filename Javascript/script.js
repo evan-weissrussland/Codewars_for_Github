@@ -237,7 +237,7 @@ console.log(countSheeps([true,  true,  true,  false,
    true,  true,  true,  true ,
    false, false, true,  true]));
    */
-  //--------------------END task------------------
+//--------------------END task------------------
 
 
 //-----------Start task--------------------------
@@ -254,4 +254,33 @@ console.log(paperwork(12, 3))*/
 /*function solution(str, ending){
     return str.endsWith(ending)
 }*/
+//--------------------END task------------------
+
+//-----------Start task--------------------------
+/*const func = (a) => {
+    let b = a.split(' ')
+    console.log('b=', b)
+
+    let arrayFromMap = b.map((item, index) => {
+
+        let arrayLettersFromItem = item.split('')
+
+        console.log(`arrayLettersFromItem${index + 1}=  `, arrayLettersFromItem)
+
+        let filter = arrayLettersFromItem.filter(it => {
+            if (it !== 'a' && it !== 'A' && it !== 'e' && it !== 'E' && it !== 'i' && it !== 'I' && it !== 'o' && it !== 'O' && it !== 'u' && it !== 'U') {
+                return it
+            }
+        })
+        console.log(`filter${index + 1}=  `, filter)
+
+        let joinFilter = filter.join('')
+        return joinFilter
+    })
+    console.log('arrayFromMap=   ', arrayFromMap)
+    let rezult = arrayFromMap.join(' ')
+    console.log(a, ' ', rezult)
+    return rezult
+}
+console.log(func('asfOf werijs Weroy'))*/
 //--------------------END task------------------
