@@ -340,3 +340,14 @@ console.log(squareDigits(23))*/
 /*const sumElements = (arr) => arr.length !== 0 ? arr.reduce((acc,el) => acc += el, 0) : 0*/
 
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+/*const highAndLow = (str) => {
+   const arr = str.split(' ')
+   const max = Math.max(...arr)
+   const min = Math.min(...arr)
+    return `${max} ${min}`
+}
+
+console.log(highAndLow("1 9 3 4 -5"))*/
+//--------------------END task------------------
