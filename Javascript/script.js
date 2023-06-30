@@ -318,3 +318,9 @@ console.log(squareDigits(23))*/
 }*/
 
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+/*function multiply(a, b){
+    return a * b
+}*/
+//--------------------END task------------------
