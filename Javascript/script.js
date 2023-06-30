@@ -351,3 +351,14 @@ console.log(squareDigits(23))*/
 
 console.log(highAndLow("1 9 3 4 -5"))*/
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+
+/*const descendingOrder = (n) => {
+   const arr = Number(String(n).split('').sort((a,b)=>b-a).join(''))
+  console.log(arr, typeof arr)
+}
+
+console.log(descendingOrder(123456))*/
+
+//--------------------END task------------------
