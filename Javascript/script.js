@@ -362,3 +362,15 @@ console.log(highAndLow("1 9 3 4 -5"))*/
 console.log(descendingOrder(123456))*/
 
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+/*
+function getMiddle(s)
+{
+    if(s.length % 2 === 0) {
+        return  s.slice((s.length/2)-1, (s.length/2)+1)
+    } else {
+        return s[Math.floor(s.length/2)]
+    }
+}*/
+//--------------------END task------------------
