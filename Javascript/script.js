@@ -324,3 +324,19 @@ console.log(squareDigits(23))*/
     return a * b
 }*/
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+//-------вариант 1--------------
+/*const sumArray = (arr) => {
+    if (arr.length !== 0) {
+        let sum = 0;
+        for (let i = 0; i < arr.length; i++) {
+            sum += arr[i]
+        }
+        return sum
+    } else return 0
+}*/
+//-------вариант 2--------------
+/*const sumElements = (arr) => arr.length !== 0 ? arr.reduce((acc,el) => acc += el, 0) : 0*/
+
+//--------------------END task------------------
