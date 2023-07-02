@@ -374,3 +374,30 @@ function getMiddle(s)
     }
 }*/
 //--------------------END task------------------
+
+
+//-----------Start task--------------------------
+/*
+const duplicateEncode = (word) => {
+    const arr = word.toLowerCase().split('')
+    if (arr.length !== 1) {
+    const newArr = []
+    for (let i=0; i<arr.length;i++) {
+        for (let j=i+1; j<arr.length;j++) {
+            if(arr[i]===arr[j]) {
+                newArr[i]=')'
+                newArr[j]=')'
+            } else {
+                if(newArr[i] !==')') {newArr[i]='('}
+                if(newArr[j] !==')') {newArr[j]='('}
+            }
+        }
+    }
+    return newArr.join('')
+    } else {
+        return '('
+    }
+}
+
+console.log(duplicateEncode('(( @'))*/
+//--------------------END task------------------
