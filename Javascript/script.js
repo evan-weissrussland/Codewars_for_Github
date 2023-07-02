@@ -401,3 +401,16 @@ const duplicateEncode = (word) => {
 
 console.log(duplicateEncode('(( @'))*/
 //--------------------END task------------------
+
+
+//-----------Start task--------------------------
+/*const foo = (str) => {
+    const arr = str.toLowerCase().split('')
+    const newArr = arr.map((el,i) => {
+        return `${el.toUpperCase()}${el.repeat(i)}`
+    })
+    return newArr.join('-')
+}
+console.log(foo("abcd"))*/
+//--------------------END task------------------
+
