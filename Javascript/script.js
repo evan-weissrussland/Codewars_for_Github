@@ -431,3 +431,10 @@ console.log(foo("abcd"))*/
 }
 console.log(persistence(999))*/
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+/*function isTriangle(a,b,c){
+    const arr = [a,b,c].sort((a,b) => b-a)
+    return arr[1] + arr[2] > arr[0]
+}*/
+//--------------------END task------------------
