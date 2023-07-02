@@ -414,3 +414,20 @@ console.log(duplicateEncode('(( @'))*/
 console.log(foo("abcd"))*/
 //--------------------END task------------------
 
+//-----------Start task--------------------------
+/*const persistence = (num) => {
+    let arr = String(num).split('')
+    console.log(arr)
+    let count = 1
+    while (arr.length !== 1) {
+        console.log(`итерация ${count}`)
+        let multiplyNum = arr.reduce((m, el) => m *= el,)
+        console.log(multiplyNum)
+        arr = String(multiplyNum).split('')
+        console.log(arr)
+        count++
+    }
+    return count - 1
+}
+console.log(persistence(999))*/
+//--------------------END task------------------
