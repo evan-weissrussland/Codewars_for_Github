@@ -456,3 +456,13 @@ console.log(persistence(999))*/
 }
 console.log(isPangram("abcdefghijklmnopqrstuvwxyzz!!   ."))*/
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+/*const fo = (n) => {
+    if (n !== 0) {
+        return Math.sqrt(n) % Math.floor(Math.sqrt(n)) === 0
+    }
+    return true
+}
+console.log(fo(0))*/
+//--------------------END task------------------
