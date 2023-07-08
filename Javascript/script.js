@@ -438,3 +438,21 @@ console.log(persistence(999))*/
     return arr[1] + arr[2] > arr[0]
 }*/
 //--------------------END task------------------
+
+
+//-----------Start task--------------------------
+/*function isPangram(string){
+    let abc = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','r','s','t','u','v','w','x','y','z']
+    const newStr = string.toLowerCase()
+    for (let i=0; i<string.length; i++) {
+        newStr.includes(abc[i]) && delete abc[i]
+    }
+    for (let el of abc) {
+         if (el !== undefined) {
+             return false
+         }
+    }
+    return true
+}
+console.log(isPangram("abcdefghijklmnopqrstuvwxyzz!!   ."))*/
+//--------------------END task------------------
