@@ -466,3 +466,10 @@ console.log(isPangram("abcdefghijklmnopqrstuvwxyzz!!   ."))*/
 }
 console.log(fo(0))*/
 //--------------------END task------------------
+
+
+//-----------Start task--------------------------
+function booleanToString(b){
+    return String(b)
+}
+//--------------------END task------------------
