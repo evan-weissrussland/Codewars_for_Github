@@ -478,3 +478,17 @@ console.log(fo(0))*/
     return Math.sqrt(sq) % 1 === 0 ? (Math.sqrt(sq)+1)**2 :  -1
 }*/
 //--------------------END task------------------
+//-----------Start task--------------------------
+/*const findOdd = (arr) => {
+    const newArr = []
+    for (let i = 0; i < arr.length; i++) {
+        newArr.push(arr.filter(el => el === arr[i]))
+    }
+    return newArr.find(el => el.length % 2 !== 0)[0]
+}
+console.log(findOdd([1, 2, 2, 3, 3, 3, 4, 3, 3, 3, 2, 2, 1]))
+console.log(findOdd([0, 1, 0, 1, 0]))
+console.log(findOdd([1, 1, 2]))
+console.log(findOdd([0]))
+console.log(findOdd([7]))*/
+//--------------------END task------------------
