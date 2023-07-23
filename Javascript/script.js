@@ -478,6 +478,7 @@ console.log(fo(0))*/
     return Math.sqrt(sq) % 1 === 0 ? (Math.sqrt(sq)+1)**2 :  -1
 }*/
 //--------------------END task------------------
+
 //-----------Start task--------------------------
 /*const findOdd = (arr) => {
     const newArr = []
@@ -491,4 +492,21 @@ console.log(findOdd([0, 1, 0, 1, 0]))
 console.log(findOdd([1, 1, 2]))
 console.log(findOdd([0]))
 console.log(findOdd([7]))*/
+//--------------------END task------------------
+
+//-----------Start task--------------------------
+/*
+const isIsogram = (str) => {
+    str=str.toLowerCase()
+    for (let i=0; i<str.length; i++) {
+        if (str.includes(str[i],i+1)) {
+            return false
+        }
+      }
+    return true
+}
+
+console.log(isIsogram('Dermatoglyphics'))
+console.log(isIsogram('aba'))
+console.log(isIsogram('moose'))*/
 //--------------------END task------------------
