@@ -510,3 +510,11 @@ console.log(isIsogram('Dermatoglyphics'))
 console.log(isIsogram('aba'))
 console.log(isIsogram('moose'))*/
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+/*var number=function(array){
+    return array.length !== 0 ? array.map((el,i)=>`${i+1}: `+el) : []
+}
+console.log(number(['a','b','c']))
+*/
+//--------------------END task------------------
