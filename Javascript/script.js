@@ -518,3 +518,15 @@ console.log(isIsogram('moose'))*/
 console.log(number(['a','b','c']))
 */
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+/*function XO(str) {
+    return str.toLowerCase().split('').filter(el=>el==='o').length === str.toLowerCase().split('').filter(el=>el==='x').length
+}
+
+console.log(XO('ooxx'))
+console.log(XO('xooxx'))
+console.log(XO('ooxXm'))
+console.log(XO('zpzpzpp'))
+console.log(XO('zzoo'))*/
+//--------------------END task------------------
