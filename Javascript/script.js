@@ -520,7 +520,8 @@ console.log(number(['a','b','c']))
 //--------------------END task------------------
 
 //-----------Start task--------------------------
-/*function XO(str) {
+/*
+function XO(str) {
     return str.toLowerCase().split('').filter(el=>el==='o').length === str.toLowerCase().split('').filter(el=>el==='x').length
 }
 
@@ -528,5 +529,22 @@ console.log(XO('ooxx'))
 console.log(XO('xooxx'))
 console.log(XO('ooxXm'))
 console.log(XO('zpzpzpp'))
-console.log(XO('zzoo'))*/
+console.log(XO('zzoo'))
+*/
+//--------------------END task------------------
+
+//ни к чему не относится
+// console.log('ooxx'.toLowerCase().split('x'))
+// console.log('ooxx'.toLowerCase().split('o'))
+// console.log('ooxx'.toLowerCase().split('x').length)
+// console.log('ooxx'.toLowerCase().split('o').length)
+
+//--------------
+
+//-----------Start task--------------------------
+/*function XO(str) {
+    return str.toLowerCase().split(' ').map((el)=>el.split('').map((t,i)=>i === 0 ? t[i].toUpperCase() : t).join('')).join(' ')
+}
+
+console.log(XO("How can mirrors be real if our eyes aren't real"))*/
 //--------------------END task------------------
