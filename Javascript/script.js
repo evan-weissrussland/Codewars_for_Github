@@ -555,3 +555,29 @@ console.log(XO("How can mirrors be real if our eyes aren't real"))*/
 
 console.log(findShort("bitcoin take over the world maybe who knows perhaps"))*/
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+/*const solution = (str) => {
+    if (str) {
+        const arrStr = str.split('')
+        console.log(arrStr)
+        const newAr = []
+        const mapAr = arrStr.map(e => {
+            if (e !== e.toLowerCase()) {
+                newAr.push(' ')
+                newAr.push(e)
+            } else {
+                newAr.push(e)
+            }
+            return e
+        })
+        return newAr.join('')
+    } else {
+        return "''"
+    }
+}
+
+console.log(solution("camelCasing"))
+console.log(solution("camelcasing"))
+console.log(solution(""))*/
+//--------------------END task------------------
