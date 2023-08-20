@@ -617,3 +617,48 @@ console.log(likes(['QQ', 'WW', 'EE', 'RR', 'TT']))
 }
 console.log(twoSum([-552, 40, -138, -997, 490, 181, 478, -5, 701, 524, 495, 222, 891, 832, -604, 268, -981, 72, -245, 167, 129, 973, 925, -86, -934, 741, -931, -509, 165, 292, -854, 708, -847, 425, 409, 427, 323, -576, 937, -168, -438, 369, 472, -751, 360, -219, 950, 411, 924, 67, -142, 435, 945, 205, 980, -943, -75, -866, -919, 185, -125, 994, 185, -437, -963, 227, -491, -454, -331, 552, 417, 701, 554, 289, -183],912))*/
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+//--вариант 1
+/*const solution = (number) => {
+    if (number > 0 ) {
+        const arr = []
+        const newArr = []
+        for (let i = 1; i < number; i++) {
+            arr.push(i)
+        }
+        for (let i = 0; i < number; i++) {
+            if (arr[i] % 3 === 0 || arr[i] % 5 === 0) {
+                newArr.push(arr[i])
+            }
+        }
+        return newArr.reduce((sum, e) => sum + e, 0)
+    } else {
+        return 0
+    }
+}
+console.log(solution(10))
+
+//--вариант 2 через reduce
+const solution1 = (number) => {
+    if (number > 0) {
+        const arr = []
+
+        for (let i = 1; i < number; i++) {
+            arr.push(i)
+        }
+
+        return arr.reduce((sum, e) => {
+            if (e % 3 === 0 || e % 5 === 0) {
+                return sum + e
+            } else {
+                return sum
+            }
+        }, 0)
+    } else {
+        return 0
+    }
+
+}
+console.log(solution1(10))*/
+//--------------------END task------------------
