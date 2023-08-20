@@ -581,3 +581,21 @@ console.log(solution("camelCasing"))
 console.log(solution("camelcasing"))
 console.log(solution(""))*/
 //--------------------END task------------------
+
+//-----------Start task--------------------------
+/*const likes = (names) => {
+   if (!names.length) {
+       return 'no one likes this'
+   } else if (names.length === 1) {
+       return `${names[0]} likes this`
+   } else if (names.length === 2) {
+       return `${names[0]} and ${names[1]} like this`
+   } else if (names.length === 3) {
+       return `${names[0]}, ${names[1]} and ${names[2]} like this`
+   } else if (names.length > 3) {
+       return `${names[0]}, ${names[1]} and ${names.length-2} others like this`
+   }
+}
+
+console.log(likes(['QQ', 'WW', 'EE', 'RR', 'TT']))*/
+//--------------------END task------------------
