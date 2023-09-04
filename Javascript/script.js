@@ -706,4 +706,27 @@ const comp = (a, b) => {
 }
 
 console.log(comp([9, 6, 10, 9, 0, 6, 5, 1, 0, 5, 1, 10, 1, 4, 3],[0, 25, 25, 9, 0, 36, 1, 81, 2, 1, 81, 16, 36, 100, 100] ))
-//--------------------END task------------------*/
+//--------------------END task------------------
+*/
+/*
+
+//-----------Start task--------------------------
+const SeriesSum = (n) => {
+    if (n === 0) {
+        return '0.00'
+    }
+    let a = 4
+    let b = 1
+    for (let i = 1; i < n; i++) {
+        b += 1 / a
+        a += 3
+    }
+    return b.toFixed(2)
+}
+
+console.log(foo(5))
+console.log(foo(2))
+console.log(foo(1))
+console.log(foo(0))
+//--------------------END task------------------
+*/
