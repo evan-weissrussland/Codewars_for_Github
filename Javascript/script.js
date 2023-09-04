@@ -662,3 +662,28 @@ const solution1 = (number) => {
 }
 console.log(solution1(10))*/
 //--------------------END task------------------
+
+// //-----------Start task--------------------------
+// const uniqueInOrder = (data) => {
+//     if (typeof data === 'string') {
+//         data = data.split('')
+//     }
+//     console.log(data)
+//     const newArr = []
+//     outer: for (let i = 0; i < data.length; i++) {
+//         i === data.length - 1 && newArr.push(data[i])
+//         for (let j = i + 1; j < data.length; j++) {
+//             if (data[i] === data[j]) {
+//                 continue outer
+//             }
+//             newArr.push(data[i])
+//             continue outer
+//         }
+//     }
+//     return newArr
+// }
+//
+// console.log(uniqueInOrder('AAAABBBCCDAABBB'))
+// console.log(uniqueInOrder('ABBCcAD'))
+// console.log(uniqueInOrder([1,2,2,3,3]))
+// //--------------------END task------------------
