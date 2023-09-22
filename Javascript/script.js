@@ -745,3 +745,12 @@ const sumDigPow = (a, b) => {
 console.log(sumDigPow(50, 150))
 //--------------------END task------------------
 */
+
+/*
+
+//-----------Start task--------------------------
+const powersOfTwo = (n) => {
+    return Array(n+1).fill(2).map((el,i) => el**i)
+}
+console.log(powersOfTwo(0))
+//--------------------END task------------------*/
