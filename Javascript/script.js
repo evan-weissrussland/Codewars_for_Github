@@ -730,3 +730,18 @@ console.log(foo(1))
 console.log(foo(0))
 //--------------------END task------------------
 */
+/*
+//-----------Start task--------------------------
+const sumDigPow = (a, b) => {
+    const arr = []
+    for (let i = a; i <= b; i++) {
+        let splitArr = String(i).split('').reduce((acc, t, c) => acc + Math.pow(+t, c + 1), 0)
+        if (splitArr === i) {
+            arr.push(i)
+        }
+    }
+    return arr.sort((a, b) => a - b)
+}
+console.log(sumDigPow(50, 150))
+//--------------------END task------------------
+*/
