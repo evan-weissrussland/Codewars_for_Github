@@ -763,3 +763,16 @@ function enough(cap, on, wait) {
 console.log(enough(100,60,50))
 //--------------------END task------------------
 */
+
+
+/*
+//-----------Start task--------------------------
+const foo = (str) => {
+return str.length > 4 ? str.split('').map((e, i, arr) => i < arr.length-4 ? '#' : e ).join('') : str
+}
+console.log(foo("4556364607935616"))
+console.log(foo("Nananananananananananananananana Batman!"))
+console.log(foo("1"))
+console.log(foo(""))
+//--------------------END task------------------
+*/
