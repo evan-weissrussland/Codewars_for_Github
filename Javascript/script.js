@@ -776,3 +776,13 @@ console.log(foo("1"))
 console.log(foo(""))
 //--------------------END task------------------
 */
+
+
+
+/*//-----------Start task--------------------------
+const foo = (arr) => {
+const sortArr = arr.sort((a,b)=> a-b)
+    return sortArr[0]+sortArr[1]}
+console.log(foo([19, 5, 42, 2, 77]))
+//--------------------END task------------------*/
+
