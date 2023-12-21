@@ -778,7 +778,6 @@ console.log(foo(""))
 */
 
 
-
 /*//-----------Start task--------------------------
 const foo = (arr) => {
 const sortArr = arr.sort((a,b)=> a-b)
@@ -786,10 +785,28 @@ const sortArr = arr.sort((a,b)=> a-b)
 console.log(foo([19, 5, 42, 2, 77]))
 //--------------------END task------------------*/
 
+/*
 //-----------Start task--------------------------
 const solution = (nums) => {
     return nums ? nums.sort((a,b)=>a-b) : []
 }
 console.log(solution([1, 2, 10, 50, 5]))
 console.log(solution([]))
-//--------------------END task------------------
+//--------------------END task------------------*/
+
+//-----------Start task--------------------------
+/*
+const quicksum = (packet) => {
+    const alfaBet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    return /^[A-Z][A-Z\s]{0,}[A-Z]$/.test(packet) ? packet.split('').reduce((acc, p, i) => {
+            if (p === ' ') {
+                return acc
+            } else {
+                return acc + (i + 1) * (alfaBet.findIndex(e => e === p) + 1)
+            }
+        }
+        , 0) : 0
+
+}
+console.log('результат вызова функции: ' + quicksum('234 234 WEF ASDF AAA 554211 ???? '))
+//--------------------END task------------------*/
