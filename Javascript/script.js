@@ -786,3 +786,10 @@ const sortArr = arr.sort((a,b)=> a-b)
 console.log(foo([19, 5, 42, 2, 77]))
 //--------------------END task------------------*/
 
+//-----------Start task--------------------------
+const solution = (nums) => {
+    return nums ? nums.sort((a,b)=>a-b) : []
+}
+console.log(solution([1, 2, 10, 50, 5]))
+console.log(solution([]))
+//--------------------END task------------------
