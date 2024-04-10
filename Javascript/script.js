@@ -837,3 +837,19 @@ console.log('результат вызова функции: ' + quicksum( [0]))
 
 //--------------------END task------------------
 */
+/*
+
+//-----------Start task--------------------------
+const quicksum = (num) => {
+    let arr = []
+   for (let i = 2; i < num; i++) {
+       if (num % i === 0) arr.push(i)
+   }
+   return arr.length === 0 ? `${num} is prime` : arr
+}
+console.log('результат вызова функции: ',  quicksum(12))
+console.log('результат вызова функции: ', quicksum( 25))
+console.log('результат вызова функции: ',  quicksum( 13))
+
+//--------------------END task------------------
+*/
