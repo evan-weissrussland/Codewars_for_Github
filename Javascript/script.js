@@ -853,3 +853,21 @@ console.log('результат вызова функции: ',  quicksum( 13))
 
 //--------------------END task------------------
 */
+/*
+
+//-----------Start task--------------------------
+const quicksum = (arr) => {
+const arrCopy = [...arr]
+const arrCopy2 = [...arr]
+    const sortedArr = arrCopy.sort((a,b)=>a-b)
+    const index = arrCopy2.indexOf(sortedArr[0])
+    arrCopy2.splice(index,1)
+    return arrCopy2
+
+}
+console.log('результат вызова функции: ',  quicksum([1,2,3,4,5]))
+console.log('результат вызова функции: ', quicksum( [5,3,2,1,4]))
+console.log('результат вызова функции: ',  quicksum( [2,2,1,2,1]))
+
+//--------------------END task------------------
+*/
