@@ -824,3 +824,16 @@ console.log('результат вызова функции: ' + quicksum("www.c
 
 //--------------------END task------------------
 */
+/*
+
+//-----------Start task--------------------------
+const quicksum = (arr) => {
+    if (arr.length === 0 && (arr.length === 0 && arr[0] === 0)) return 'even'
+    return arr.reduce((acc,a) => acc += a) % 2 === 0 ? 'even' : 'odd'
+}
+console.log('результат вызова функции: ' + quicksum([0, 1, 4]))
+console.log('результат вызова функции: ' + quicksum( [0, -1, -5]))
+console.log('результат вызова функции: ' + quicksum( [0]))
+
+//--------------------END task------------------
+*/
