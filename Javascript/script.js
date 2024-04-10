@@ -810,3 +810,17 @@ const quicksum = (packet) => {
 }
 console.log('результат вызова функции: ' + quicksum('234 234 WEF ASDF AAA 554211 ???? '))
 //--------------------END task------------------*/
+/*
+
+//-----------Start task--------------------------
+const quicksum = (str) => {
+    const index = str.indexOf('#')
+    if (index !== -1) return str.slice(0,index)
+return str
+
+}
+console.log('результат вызова функции: ' + quicksum("www.codewars.com#about"))
+console.log('результат вызова функции: ' + quicksum("www.codewars.com?page=1"))
+
+//--------------------END task------------------
+*/
