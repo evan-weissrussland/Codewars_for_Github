@@ -937,3 +937,12 @@ const digitalRoot = (number) => {
 console.log('результат вызова функции: ', digitalRoot(493193))
 //--------------------END task------------------
 */
+/*
+
+//-----------Start task--------------------------
+const digitalRoot = (ar1,ar2) => {
+    return ar1.filter(i=> !ar2.includes(i))
+}
+console.log('результат вызова функции: ', digitalRoot([1,2,2,2,3],[2]))
+//--------------------END task------------------
+*/
