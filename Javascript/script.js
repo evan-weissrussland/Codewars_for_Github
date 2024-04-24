@@ -883,3 +883,57 @@ console.log('результат вызова функции: ',  quicksum( [1]))
 
 //--------------------END task------------------
 */
+/*
+
+//-----------Start task--------------------------
+const solution = (num) => {
+    const arr = []
+    for(let i = 0; i < num; i++) {
+        if (i%3===0 || i%5===0) {
+            arr.push(i)
+        }
+    }
+    // console.log(arr)
+    return arr.reduce((acc,i)=>(acc = acc+i), 0)
+}
+console.log('результат вызова функции: ',  quicksum(10))
+console.log('результат вызова функции: ', quicksum( 100))
+console.log('результат вызова функции: ',  quicksum( 1000))
+
+//--------------------END task------------------
+
+*/
+/*
+
+//-----------Start task--------------------------
+const solution = (str) => {
+    const arr = str.split(' ')
+    if (arr.length === 1 && arr[0] < 5) return str
+    return arr.map(a =>
+        a.length >= 5 ? a.split('').reverse().join('') : a
+    ).join(' ')
+}
+console.log('результат вызова функции: ', solution('Hey fellow warriors'))
+console.log('результат вызова функции: ', solution('Welcome'))
+console.log('результат вызова функции: ',  solution( 'This is another test'))
+
+//--------------------END task------------------
+*/
+/*
+
+//-----------Start task--------------------------
+const digitalRoot = (number) => {
+ let saveNum = 0
+    function dd(n) {
+     if (n < 10) return 0
+     const arr = n.toString().split('')
+        let newNum = arr.reduce((acc,i)=>(acc = acc + +i),0)
+        saveNum = newNum
+        dd(newNum)
+    }
+    dd(number)
+    return saveNum
+}
+console.log('результат вызова функции: ', digitalRoot(493193))
+//--------------------END task------------------
+*/
