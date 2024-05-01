@@ -1034,3 +1034,16 @@ const digitalRoot = (ar1) => {
 console.log('результат вызова функции: ', digitalRoot([false,1,0,1,2,0,1,3,"a"]))
 //--------------------END task------------------
 */
+/*
+
+//-----------Start task--------------------------
+const digitalRoot = (seconds) => {
+    const hour = Math.floor(seconds / 60 / 60)
+    const min = Math.floor((seconds - hour*60*60) / 60)
+    const sec = Math.floor((seconds - hour*60*60 - min*60) )
+    return `${hour < 10 ? '0'+hour : hour}:${min < 10 ? '0'+min:min}:${sec < 10 ? '0'+sec : sec}`
+}
+console.log('результат вызова функции: ', digitalRoot(359999))
+//--------------------END task------------------
+
+*/
