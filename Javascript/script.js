@@ -979,3 +979,58 @@ console.log('результат вызова функции: ', digitalRoot([160
 console.log('результат вызова функции: ', digitalRoot([2, 4, 0, 100, 4, 11, 2602, 36]))
 //--------------------END task------------------
 */
+
+/*
+
+//-----------Start task--------------------------
+const digitalRoot = (ar1) => {
+    let res = 0
+let ones = 0
+let twoes = 0
+let trees = 0
+let foures = 0
+let fives = 0
+let sixes = 0
+    ar1.forEach(a=>{
+        if(a === 1) ones++
+        if(a === 2) twoes++
+        if(a === 3) trees++
+        if(a === 4) foures++
+        if(a === 5) fives++
+        if(a === 6) sixes++
+    })
+    if (ones < 3) res += ones*100
+    if (ones >= 3 && ones < 6) res += 1000 + (ones-3)*100
+    if (ones === 6) res += 2*1000
+    if (twoes >= 3 && twoes <6) res += 200
+    if (twoes === 6) res += 2*200
+    if (trees >= 3 && trees <6) res += 300
+    if (trees === 6) res += 2*300
+    if (foures >= 3 && foures <6) res += 400
+    if (foures === 6) res += 2*400
+    if (sixes >= 3 && sixes <6) res += 600
+    if (sixes === 6) res += 2*600
+    if (fives < 3) res += fives*50
+    if (fives >= 3 && fives < 6) res += 500 + (fives-3)*50
+    if (fives === 6) res += 2*500
+    return res
+}
+console.log('результат вызова функции: ', digitalRoot([5, 1, 3, 4, 1]))
+console.log('результат вызова функции: ', digitalRoot([1, 1, 1, 3, 1]))
+console.log('результат вызова функции: ', digitalRoot([2,4, 4, 5, 4]))
+console.log('результат вызова функции: ', digitalRoot([2, 2, 2, 2, 6]))
+//--------------------END task------------------
+*/
+
+/*
+
+//-----------Start task--------------------------
+const digitalRoot = (ar1) => {
+    let nulles = 0
+    ar1.forEach(a=> a === 0 && nulles++)
+    const filtred = ar1.filter(s => s!==0)
+    return [...filtred,...Array(nulles).fill(0)]
+}
+console.log('результат вызова функции: ', digitalRoot([false,1,0,1,2,0,1,3,"a"]))
+//--------------------END task------------------
+*/
