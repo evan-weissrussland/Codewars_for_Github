@@ -965,5 +965,17 @@ const digitalRoot = (ar1) => {
 console.log('результат вызова функции: ', digitalRoot(1234))
 //--------------------END task------------------
 */
+/*
 
+//-----------Start task--------------------------
+const digitalRoot = (ar1) => {
 
+    const q = ar1.filter(i=> i%2 === 0)
+    const q1 = ar1.filter(i=> i%2 !== 0)
+    if (q.length === 1) return q[0]
+    return q1[0]
+}
+console.log('результат вызова функции: ', digitalRoot([160, 3, 1719, 19, 11, 13, -21]))
+console.log('результат вызова функции: ', digitalRoot([2, 4, 0, 100, 4, 11, 2602, 36]))
+//--------------------END task------------------
+*/
