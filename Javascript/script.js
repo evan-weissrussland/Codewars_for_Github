@@ -946,3 +946,24 @@ const digitalRoot = (ar1,ar2) => {
 console.log('результат вызова функции: ', digitalRoot([1,2,2,2,3],[2]))
 //--------------------END task------------------
 */
+/*
+
+//-----------Start task--------------------------
+const digitalRoot = (ar1) => {
+    return `(${ar1[0]}${ar1[1]}${ar1[2]}) ${ar1[3]}${ar1[4]}${ar1[5]}-${ar1[6]}${ar1[7]}${ar1[8]}${ar1[9]}`
+}
+console.log('результат вызова функции: ', digitalRoot([1,2,3,4,5,6,7,8,9,0]))
+//--------------------END task------------------
+*/
+
+/*
+
+//-----------Start task--------------------------
+const digitalRoot = (ar1) => {
+    return ar1.toString(2).split('').filter(i=> i==='1').length
+}
+console.log('результат вызова функции: ', digitalRoot(1234))
+//--------------------END task------------------
+*/
+
+
