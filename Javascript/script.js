@@ -1067,3 +1067,22 @@ console.log('результат вызова функции: ', digitalRoot('Pig
 console.log('результат вызова функции: ', digitalRoot('Hello world !'))
 //--------------------END task------------------
 */
+const f = 4
+
+console.log(f.toString(16))
+
+//-----------Start task--------------------------
+const digitalRoot = (s,s1,s2) => {
+    if (s<0) s = 0
+    if (s>255) s = 255
+    if (s1<0) s1 = 0
+    if (s1>255) s1 = 255
+    if (s2<0) s2 = 0
+    if (s2>255) s2 = 255
+let one = s.toString(16)
+let two = s1.toString(16)
+let tree = s2.toString(16)
+    return `${one.length !== 1 ? one : `0${one}` }${two.length !== 1 ? two : `0${two}`}${tree.length !== 1 ? tree : `0${tree}`}`.toUpperCase()
+}
+console.log('результат вызова функции: ', digitalRoot(114,75,4))
+//--------------------END task------------------
