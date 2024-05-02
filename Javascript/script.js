@@ -1034,8 +1034,8 @@ const digitalRoot = (ar1) => {
 console.log('результат вызова функции: ', digitalRoot([false,1,0,1,2,0,1,3,"a"]))
 //--------------------END task------------------
 */
-/*
 
+/*
 //-----------Start task--------------------------
 const digitalRoot = (seconds) => {
     const hour = Math.floor(seconds / 60 / 60)
@@ -1045,5 +1045,25 @@ const digitalRoot = (seconds) => {
 }
 console.log('результат вызова функции: ', digitalRoot(359999))
 //--------------------END task------------------
+*/
+/*
 
+//-----------Start task--------------------------
+const digitalRoot = (s) => {
+    const splitedS = s.split(' ')
+    console.log(splitedS)
+    const mapped = splitedS.map(s=> {
+        if (/\w/.test(s)) {
+            return s.replace(/\w/, '') + `${s[0]}ay`
+        } else {
+            return s
+        }
+    })
+    console.log(mapped)
+    return mapped.join(' ')
+
+}
+console.log('результат вызова функции: ', digitalRoot('Pig latin is cool'))
+console.log('результат вызова функции: ', digitalRoot('Hello world !'))
+//--------------------END task------------------
 */
