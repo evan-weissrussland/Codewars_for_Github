@@ -1067,9 +1067,7 @@ console.log('результат вызова функции: ', digitalRoot('Pig
 console.log('результат вызова функции: ', digitalRoot('Hello world !'))
 //--------------------END task------------------
 */
-const f = 4
-
-console.log(f.toString(16))
+/*
 
 //-----------Start task--------------------------
 const digitalRoot = (s,s1,s2) => {
@@ -1086,3 +1084,20 @@ let tree = s2.toString(16)
 }
 console.log('результат вызова функции: ', digitalRoot(114,75,4))
 //--------------------END task------------------
+*/
+
+/*
+
+//-----------Start task--------------------------
+const digitalRoot = (str) => {
+    if(str.trim().length === 0) return false
+    const f = str.trim().split(' ').filter(a=>a!=='').map(a=> a.replace(/./,a[0].toUpperCase())).join('')
+    if (f.length > 139) return false
+    return '#'+f
+}
+console.log('результат вызова функции: ', digitalRoot('    Hello    there     thanks    for    trying    my    Kata   '))
+console.log('результат вызова функции: ', digitalRoot("    Hello     World   "))
+console.log('результат вызова функции: ', digitalRoot("  9wef+! 1 "))
+//--------------------END task------------------
+
+*/
