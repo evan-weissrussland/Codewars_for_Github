@@ -1099,5 +1099,89 @@ console.log('результат вызова функции: ', digitalRoot('   
 console.log('результат вызова функции: ', digitalRoot("    Hello     World   "))
 console.log('результат вызова функции: ', digitalRoot("  9wef+! 1 "))
 //--------------------END task------------------
+*/
+/*
 
+//-----------Start task--------------------------
+const dirReduc = (data) => {
+    let counterHit = 0
+    let isPenultimateElement = false
+    let tempItem = ''
+    const tempAr = []
+    data.forEach((n, i, ar) => {
+       if (tempItem === n) {
+           tempItem = ''
+           return null
+       }
+            if (n === 'WEST') {
+                if (i === ar.length-1 && !isPenultimateElement){
+                    tempAr.push(n)
+                    return null
+                }
+                if (ar[i + 1] === 'EAST') {
+                    counterHit++
+                    if (i === ar.length - 2) {
+                        isPenultimateElement = true
+                    }
+                    tempItem = ar[i + 1]
+                    return null
+                } else {
+                    tempAr.push(n)
+                }
+            }
+            if (n === 'EAST') {
+                if (i === ar.length-1 && !isPenultimateElement){
+                    tempAr.push(n)
+                    return null
+                }
+                if (ar[i + 1] === 'WEST') {
+                    counterHit++
+                    if (i === ar.length - 2) {
+                        isPenultimateElement = true
+                    }
+                    tempItem = ar[i + 1]
+                    return null
+                } else {
+                    tempAr.push(n)
+                }
+            }
+            if (n === 'NORTH') {
+                if (i === ar.length-1 && !isPenultimateElement){
+                    tempAr.push(n)
+                    return null
+                }
+                if (ar[i + 1] === 'SOUTH') {
+                    counterHit++
+                    if (i === ar.length - 2) {
+                        isPenultimateElement = true
+                    }
+                    tempItem = ar[i + 1]
+                    return null
+                } else {
+                    tempAr.push(n)
+                }
+            }
+            if (n === 'SOUTH') {
+                if (i === ar.length-1 && !isPenultimateElement){
+                    tempAr.push(n)
+                    return null
+                }
+                if (ar[i + 1] === 'NORTH') {
+                    counterHit++
+                    if (i === ar.length - 2) {
+                        isPenultimateElement = true
+                    }
+                    tempItem = ar[i + 1]
+                    return null
+                } else {
+                    tempAr.push(n)
+                }
+            }
+    })
+    return counterHit ? dirReduc(tempAr) : tempAr
+}
+console.log('результат вызова функции: ', dirReduc(["NORTH", "EAST", "WEST", "SOUTH", "WEST", "WEST"]))
+console.log('результат вызова функции: ', dirReduc(["NORTH", "SOUTH", "EAST", "WEST"]))
+console.log('результат вызова функции: ', dirReduc(["NORTH", "WEST", "SOUTH", "EAST"]))
+//--------------------END task------------------
 */
